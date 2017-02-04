@@ -1,0 +1,27 @@
+{
+  "name": "jquery-inputreader",
+  "homepage": "https://github.com/Borvik/jquery-inputreader",
+  "description": "An input reader for fast input devices, such as barcode and magnetic stripe readers.",
+  "main": "",
+  "keywords": [
+    "input",
+    "reader",
+    "barcode",
+    "magnetic",
+    "stripe"
+  ],
+  "authors": [
+    "Chris Kolkman"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

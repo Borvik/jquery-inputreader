@@ -1,0 +1,35 @@
+{
+  "name": "jquery-inputreader",
+  "version": "1.0.0",
+  "description": "An input reader for fast input devices, such as barcode and magnetic stripe readers.",
+  "directories": {},
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borvik/jquery-inputreader.git"
+  },
+  "keywords": [
+    "input",
+    "reader",
+    "barcode",
+    "magnetic",
+    "stripe"
+  ],
+  "author": "Chris Kolkman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Borvik/jquery-inputreader/issues"
+  },
+  "homepage": "https://github.com/Borvik/jquery-inputreader#readme"
+}

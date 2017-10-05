@@ -8,6 +8,12 @@ This library traps all keystrokes, and if the timeout passes, then the scan is d
 
 Because the default action is to insert the data at the cursor in the input box, it is best to listen for reading on the input box.  However, you may also listen on other elements as well (such as *document*) though that would suppress keyevents for a broader scope.
 
+## Version 2.0
+
+While v2.0 doesn't have any API changes, there are some processing changes that could be break previous installation.
+
+v2.0 added support for capturing some Control characters embedded in barcodes as Unicode characters - such as Arrow keys, Backspace, Delete, F1-F12.  More may come.  Though I'll make sure these are major version updates.
+
 ## Options
 `$.fn.inputreader.defaults.timeout`: Specifies the timeout between keypresses (default is 50 milliseconds).
 

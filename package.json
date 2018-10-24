@@ -6,13 +6,21 @@
     "type": "git",
     "url": "git://github.com/Borvik/jquery-inputreader.git"
   },
+  "keywords": [
+    "input",
+    "reader",
+    "barcode",
+    "magnetic",
+    "stripe"
+  ],
+  "main": "src/script.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.4.0",
     "gulp-uglify": "^2.0.1"
-  },
-  "scripts": {
-    "postinstall": "bower install"
   }
 }
